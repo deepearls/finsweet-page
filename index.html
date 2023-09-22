@@ -4,63 +4,254 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
     <title>Finsweet page</title>
+    <!-- css link -->
     <link rel="stylesheet" href="stylefinsweet.css">
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/d7903eb9a6.js" crossorigin="anonymous">
+    </script>
+
+
 </head>
 
 <body>
     <!-- header-logo-navigation-and-contact-icon -->
-    <header>
-        <div class="head">
-            <h1>{finsweet</h1>
-        </div>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>About us</li>
-                <li>Services</li>
-                <li>Blog</li>
-                <li>Contact</li>
-
-            </ul>
-            <div class="contact">
-                <div class="rigt-whatsapp-icon"> <img src="img\Assistance Icon.png" alt="contact-icon" width="25px">
-                </div>
-                <div class="right-whatsapp-contact">
-                    <p> Road assistance</p>
-                    <p>+2348 1868 2979 4</p>
-                </div>
+    <div class="container">
+        <header class="header">
+            <div class="head">
+                <h1>finsweet</h1>
             </div>
-        </nav>
-    </header>
-    <main>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>Services</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
 
-        <div class="container">
-            <div class="left-text-area">
-                <div class="content">
-                    <h1>Get your vehicle service done online at one place</h1>
-                    <br>
-                    <button> Book a service</button>
-                    <br>
-                    <div class="down-content"> <br>
-                        <h6>We are open</h6>
-                        <img src="img/Icon.png" alt="">
-                        <h5>Monday to Friday 9:AM to 10:AM</h5>
+                </ul>
+                <div class="contact">
+                    <div class="rigt-whatsapp-icon">
+                        <img src="img\Assistance Icon.png" alt="contact-icon" width="25px">
+                        <!-- <i class="fa-solid fa-phone"></i> -->
+                    </div>
+                    <div class="right-whatsapp-contact">
+                        <p> Road assistance</p>
+                        <p>1800 265 24 52</p>
                     </div>
                 </div>
-            </div>
-            <div class="right-img-area">
-                <img src="img/Service (1).png" alt="Services" width="220px" class="service-top" width="75%">
-                <img src="img/Rating (1).png" alt="rating" width="220px" class="rating-bottom" width="75%">
+            </nav>
+        </header>
+        <main>
+            <!-- first section"get your vehicle service done" -->
+            <section id="get-your-vehicle-section" class="parent-flex">
+                <div class="first-section">
+                    <div class="left-text-area">
+                        <div class="content">
+                            <h1>Get your vehicle <br> service done online <br>at one place</h1>
+                            <div class="hero-btn"><a href="#"> Book a service</a>
+                            </div>
+                            <div class="down-content"> <br>
+                                <h6>We are open</h6>
+                                <img src="img/Icon.png" alt="" class="clock-icon">
+                                <h5>Monday to Friday 9:AM to 10:AM</h5>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="right-img-area">
+                        <img src="img/Service (1).png" alt="Services" width="220px" class="service-top" width="75%">
+                        <img src="img/Rating (1).png" alt="rating" width="220px" class="rating-bottom" width="75%">
+                    </div>
+                </div>
+            </section>
+            <!--end of first section"get your vehicle service done"-->
+            <!--second section "We are taking car services seriously"-->
+            <section class="car-servicing-section">
+                <div class="service-info">
+                    <div class="car-info-details">
+                        <h1> We are taking car servicing seriously </h1>
+                        <div class="convenient">
+                            <img src="img/Icon (1).png" alt="" class="convenient-icon">
+                            <h4>Convenience service</h4>
+                            <P>Through True Rich Attended do no end<br>
+                                it is his mother since real had half every him
+                            </P>
+                        </div>
+                        <div class="expert">
+                            <img src=".//img/Icon (3) copy.png" alt="" class=" expert-icon">
+                            <h4>Expert mechanics</h4>
+                            <P>Through True Rich Attended do no end<br>
+                                it is his mother since real had half every him
+                            </P>
+                        </div>
+                        <div class="pricing">
+                            <img src=".//img/Icon (4).png" alt="" class="pricing-icon">
+                            <h4>Transparent pricing</h4>
+                            <P>Through True Rich Attended do no end<br>
+                                it is his mother since real had half every him
+                            </P>
+                        </div>
+                        <div class="know-about-us">
+                            <p>know more about us</p>
+                            <img src="./img/Arrow.png" alt="" class="Arrow">
 
+                        </div>
+
+                    </div>
+                    <div class="car-info-form">
+                        <h1> Get a quote for the car <br> service</h1>
+                        <div class="quote-form">
+                            <form action="">
+                                <input type="text" placeholder="Enter your location" /> <br>
+                                <input type="text" placeholder="Enter your location" /> <br>
+                                <input type="text" placeholder="Enter your location" /> <br>
+                                <input type="text" placeholder="Enter your location" /> <br>
+                            </form>
+                            <div class="hero-btn">
+                                <a href="#"> get your quote</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end of second section"We are taking car services seriously" -->
+            <!-- third section "we follow a clear process to help you out" -->
+            <section class="clear-process-section">
+                <div class="process-section">
+                    <div class="process-details">
+                        <h1> We follow a clear <br>
+                            process to help you <br> out.
+                        </h1>
+                        <p>Through True Rich Attended do no end it is his mother <br>
+                            since real had half every him cage in packages enquire
+                        </p>
+                        <div class="hero-btn"><a href="#">Learn more</a></div>
+
+                    </div>
+                    <div class="get-a-quote">
+                        <div class="number-icons">
+                            <img src="./img/Group 9129.png" alt="">
+                            <img src="./img/Group 9130.png" alt="">
+                            <img src="./img/Group 9131.png" alt="">
+                        </div>
+                        <div class="get-a-quote-text">
+                            <h4>Get a Quote</h4>
+                            <p>Through True Rich Attended do no <br>
+                                end it is his mother since real had half every.</p> <br>
+                            <h4>Book an Appointment</h4>
+                            <p>Through True Rich Attended do no <br>
+                                end it is his mother since real had half every.</p><br>
+                            <h4>Get your Service</h4>
+                            <p>Through True Rich Attended do no <br>
+                                end it is his mother since real had half every.</p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!--end of third section "we follow a clear process to help you out" -->
+            <!-- fourth section "we offer full service auto-repairs" -->
+            <section class="full-service-section">
+                <div class="container">
+                    <div class="service-text">
+                        <h5>What we offer</h5>
+                        <h1>We offer full service auto repair <br> & maintenance </h1>
+                    </div>
+                    <div class="first-containers">
+                        <div class="item-one">
+                            <img src="./img/Icon (2).png" alt="">
+                            <p>Diagnostics</p>
+                        </div>
+                        <div class="item-two">
+                            <img src="./img/Icon (5).png" alt="">
+                            <p>Engine Repair</p>
+                        </div>
+                        <div class="item-three">
+                            <img src="./img/Icon (6).png" alt="">
+                            <p>Wheel Repair</p>
+                        </div>
+                        <div class="item-four">
+                            <img src="./img/Icon (7).png" alt="">
+                            <p>Oil Filter</p>
+                        </div>
+                    </div>
+                    <div class="second-containers">
+                        <div class="item-five">
+                            <img src="./img/Icon (8).png" alt="">
+                            <p>Body Work</p>
+                        </div>
+                        <div class="item-six">
+                            <img src="./img/Icon (9).png" alt="">
+                            <p>Batteries</p>
+                        </div>
+                        <div class="item-seven">
+                            <img src="./img/Icon (10).png" alt="">
+                            <p>Insurance claim</p>
+                        </div>
+                        <div class="item-eight">
+                            <img src="./img/Icon (11).png" alt="">
+                            <p>Custom Service</p>
+                        </div>
+                    </div>
+                    <div class="learn-about">
+                        <p>Learn about services</p>
+                        <img src="./img/Arrow.png" alt="">
+                    </div>
+                </div>
+
+    </div>
+    </section>
+    <!-- end of fourth section "we offer full service auto-repairs" -->
+    <!-- fifth section "Get in touch with us for your service and related query" -->
+
+    <section class="get-in-touch-section">
+        <div class="cta">
+            <div class="left-img"> 
+                <div class="query">
+                    <h3>Get in touch with us for <br>
+                         your service related query</h3>
+                         <div class="hero-btn">
+                            <a href="#">Contact us</a>
+                         </div>
+                </div>
             </div>
-            </dimg-iv>
-            <!-- main body-left-and-right -->
+            <div class="right-img"> </div>
+        </div>
+        <div class="experience-part">
+           <div class="experience">
+            <h2>20+ </h2>
+            <h2>10+</h2>
+            <h2>12K+</h2>
+            <h2>100%</h2>
+
+           </div>
+           <div class="experience-level">
+            <p>Professional</p>
+            <p> Years experience</p>
+            <p>Service closed</p>
+            <p>Customer Satisfaction</p>
+        </div>
+        </div>
+       
+       
+    </section>
+    <!--end of fifth section "Get in touch with us for your service and related query" -->
+
     </main>
 
 
-
+    </div>
 
 </body>
 
