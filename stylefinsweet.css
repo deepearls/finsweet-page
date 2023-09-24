@@ -701,8 +701,7 @@ padding-top: 50px;
     color: #1E1B1B;
 }
 /* end of fifth section */
-
-
+ 
 /* responsive for mobile */
 @media screen and(max-width: 425px) {
     .container{
